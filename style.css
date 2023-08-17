@@ -1,0 +1,121 @@
+body{
+    padding: 0;
+    margin: 0;
+
+    margin: 0 auto;
+}
+
+
+header{
+    height: 60px;
+    width: 100%;
+    box-shadow: 0 0 15px rgba(0,0,0, .2);
+
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Work Sans', sans-serif;
+    padding: 40px 0 0 0;
+}
+
+.status{
+    height: 20px;
+    width: 110px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 6px 0 6px 6px;
+
+    background-color: #fff;
+
+
+}
+
+
+.status__container{
+    margin: 30px 0 0 0;
+    border: 1px solid #000;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: antiquewhite;
+    transition-duration: 0.3s;
+
+
+}
+
+
+
+.status__container:hover{
+    box-shadow: 0 0 20px rgba(119, 119, 119, 0.1);
+    
+}
+
+.button__copy{
+    height: 32px;
+    width: 32px;
+    border: 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-left: 1px solid #979797;
+    background-color: #fae94f;
+    transition-duration: 0.3s;
+
+   
+}   
+.button__copy:hover{
+    border-left: 1px solid #414141;
+    background-color: goldenrod;
+
+}
+
+.button__copy:active{
+    transform: scale(1.1);
+
+}
+.button__copy img{
+    height: 22px;
+    
+}
+
+
+.active__button{
+    margin: 50px 0 0 0;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition-duration: 0.3s;
+    cursor: pointer;
+    background-color: #fae94f;
+    border: 1px solid #000;
+
+}
+.active__button:hover{
+    background-color: goldenrod;
+
+}
+
+.active__button:active{
+    transform: scale(1.1);
+
+}
+
+
